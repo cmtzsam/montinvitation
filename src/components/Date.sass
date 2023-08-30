@@ -1,0 +1,77 @@
+@import '../assets/custom/mainstyle'
+
+.Date
+  position: relative
+  h2
+    text-align: center
+    font-size: 40px
+    margin-bottom: 25px
+    font-family: $tipografia_esp
+    font-weight: normal
+  .o-container
+    padding: 150px 0 30px
+.Date--info
+  @include flexCenter
+  width: 100%
+  max-width: 600px
+  margin: 0 auto
+  position: relative
+  z-index: 5
+  
+.Date--data
+  width: 100%
+  max-width: 150px
+  text-align: center
+  position: relative
+  padding: 5px 0
+  &::before,
+  &::after
+    content: ""
+    position: absolute
+    width: 80%
+    left: 10%
+    height: 1px
+    background-color: $darkcustom
+  &::before
+    top: 0
+  &::after
+    bottom: 0
+  h3
+    font-size: 2.5rem
+
+.Date--day
+  width: 100%
+  max-width: 60px
+  text-align: center
+  h4
+    font-size: 2rem
+  p
+    font-size: 3.5rem
+    font-weight: bold
+    line-height: 1
+    font-family: $tipografia_titulos
+  h6
+    font-size: 1.25rem
+
+.Date--flowers
+  position: relative
+  z-index: 2
+  width: 100%
+  max-width: 275px
+  margin: 0px auto 0
+  &.flower-left
+    position: absolute
+    top: 10%
+    left: -25%
+    transform: rotate(-90deg) scaleX(-1)
+    img
+      max-height: 140px
+      width: auto  
+  &.flower-right
+    position: absolute
+    top: 20%
+    right: -30%
+    transform: rotate(-90deg) scaleX(-1)
+    img
+      max-height: 80px
+      width: auto

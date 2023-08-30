@@ -1,0 +1,95 @@
+@import '../assets/custom/mainstyle'
+
+.Banner
+  background-color: #f4c3ba
+  position: relative
+  // overflow: hidden
+  height: 100vh
+  max-height: 770px
+  display: flex
+  align-items: flex-end
+  justify-content: center
+  video,
+  img.intro
+    display: block
+    width: 100%
+    max-width: 100%
+    position: relative
+    z-index: 1
+    
+    width: auto
+    margin: 0 auto
+    top: -30px
+  p
+    font-size: 40px
+    text-align: center
+    margin: 0 auto auto
+    position: absolute
+    bottom: 120px
+    width: 100%
+    z-index: 5
+    padding: 0 20px
+    color: #ffffff
+    line-height: 0.9
+    letter-spacing: 2px
+    text-shadow: 3px 1px 0px rgb(129 129 129 / 15%)
+    font-family: $tipografia_esp
+  .decoration
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 2
+    .deco
+      display: block
+      position: absolute
+      width: 100%
+      height: 300px
+      &.one
+        opacity: .75
+        top: -150px
+        opacity: .45
+        img
+          display: block
+          margin-left: auto
+          width: 100%
+          max-width: 140px
+          right: -30px
+          position: relative
+      &.two
+        bottom: -150px
+        img
+          width: 100%
+          max-width: 220px
+          // left: -100px
+          position: relative
+          top: 50px
+          margin: 0 auto
+          display: block
+      &.three
+        left: 0
+        top: -50px
+        opacity: .5
+        img
+          width: 100%
+          max-width: 180px
+          display: block
+          position: relative
+          left: -50px
+          transform: scaleX(-1) rotate(-35deg)
+      &.four
+        right: 0
+        bottom: 00px
+        opacity: .15
+        overflow: hidden
+        img
+          width: 100%
+          max-width: 180px
+          display: block
+          position: relative
+          left: 40px
+          // transform: scaleX(-1) rotate(-35deg)
+          margin-left: auto
+          z-index: 8
+    
