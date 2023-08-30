@@ -7,7 +7,7 @@
       <div class="Dresscode--main">
         <div class="fondo">
           <h5>Romantico Bohemio</h5>
-          <img src="http://codificarlos.com/pictures/vestido.png" alt="" class="img-full-responsive">
+          <img src="@/assets/images/vestido.png" alt="" class="img-full-responsive">
         </div>
         <!-- <h3>Pantone </h3> -->
       </div>

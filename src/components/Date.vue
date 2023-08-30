@@ -11,31 +11,31 @@ export default {
   mounted() {
     // let mm = gsap.matchMedia();
 
-    const copy_day = document.querySelector( '.Date--info h3.day' )
-    const copy_hour = document.querySelector( '.Date--info h3.hour' )
-    const copy_month = document.querySelector( '.Date--info .month' )
-    const copy_num = document.querySelector( '.Date--info .num' )
-    const flowers = document.querySelector('.Date--flowers img')
-    gsap.fromTo( copy_day, 
-      { x: -50, opacity: 0 },
-      { x: 0, opacity: 1, duration: .8  } 
-    );
-    gsap.fromTo( copy_hour, 
-      { x: 50, opacity: 0 },
-      { x: 0, opacity: 1, duration: .8  } 
-    );
-    gsap.fromTo( copy_month, 
-      { y: -50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1  } 
-    );
-    gsap.fromTo( copy_num, 
-      { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1  } 
-    );
-    gsap.fromTo( flowers, 
-      { opacity: 0, scale: .8 },
-      { opacity: 1, scale: 1, duration: 1  } 
-    );
+    // const copy_day = document.querySelector( '.Date--info h3.day' )
+    // const copy_hour = document.querySelector( '.Date--info h3.hour' )
+    // const copy_month = document.querySelector( '.Date--info .month' )
+    // const copy_num = document.querySelector( '.Date--info .num' )
+    // const flowers = document.querySelector('.Date--flowers img')
+    // gsap.fromTo( copy_day, 
+    //   { x: -50, opacity: 0 },
+    //   { x: 0, opacity: 1, duration: .8  } 
+    // );
+    // gsap.fromTo( copy_hour, 
+    //   { x: 50, opacity: 0 },
+    //   { x: 0, opacity: 1, duration: .8  } 
+    // );
+    // gsap.fromTo( copy_month, 
+    //   { y: -50, opacity: 0 },
+    //   { y: 0, opacity: 1, duration: 1  } 
+    // );
+    // gsap.fromTo( copy_num, 
+    //   { y: 50, opacity: 0 },
+    //   { y: 0, opacity: 1, duration: 1  } 
+    // );
+    // gsap.fromTo( flowers, 
+    //   { opacity: 0, scale: .8 },
+    //   { opacity: 1, scale: 1, duration: 1  } 
+    // );
     // gsap.to(copy_day, {
     //   x: 40,
     //   ease: "none",

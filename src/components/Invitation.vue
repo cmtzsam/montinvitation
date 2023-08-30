@@ -9,10 +9,10 @@
     </div>
     <div class="InvitationSection--flowers">
       <!-- <img src="flower10.png" alt=""> -->
-      <img src="http://codificarlos.com/pictures/flower8.png" class="first">
-      <img src="http://codificarlos.com/pictures/flower19.png" class="third">
-      <img src="http://codificarlos.com/pictures/flower7.png" class="second">
-      <img src="http://codificarlos.com/pictures/flower20.png" class="fourth">
+      <img src="@/assets/images/flower8.png" class="first">
+      <img src="@/assets/images/flower19.png" class="third">
+      <img src="@/assets/images/flower7.png" class="second">
+      <img src="@/assets/images/flower20.png" class="fourth">
       <!-- <img src="flower21.png" alt=""> -->
     </div>
   </section>

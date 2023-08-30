@@ -34,10 +34,10 @@ export default {
     <div class="o-container">
       <!-- <h2>Ubicacion</h2> -->
       <div class="Location--flowers left-flower">
-        <img src="http://codificarlos.com/pictures/flower14.png" alt="Flores" >
+        <img src="@/assets/images/flower14.png" alt="Flores" >
       </div>
       <div class="Location--flowers right-flower">
-        <img src="http://codificarlos.com/pictures/flower17.png" alt="Flores" >
+        <img src="@/assets/images/flower17.png" alt="Flores" >
       </div>      
       <!-- <h3>THE GARDEN PAVILION THURSTFORD</h3> -->
       <div class="Location--info">
