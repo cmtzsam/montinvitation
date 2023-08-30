@@ -9,9 +9,9 @@
     </div>
     <div class="InvitationSection--flowers">
       <!-- <img src="flower10.png" alt=""> -->
-      <img src="@/assets/images/flower8.png" class="first">
+      <img src="@/assets/images/flower25.png" class="first">
       <img src="@/assets/images/flower19.png" class="third">
-      <img src="@/assets/images/flower7.png" class="second">
+      <img src="@/assets/images/flower16.png" class="second">
       <img src="@/assets/images/flower20.png" class="fourth">
       <!-- <img src="flower21.png" alt=""> -->
     </div>

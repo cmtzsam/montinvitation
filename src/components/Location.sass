@@ -26,15 +26,16 @@
       margin: 15px auto
       position: relative
       z-index: 6
-    button
+    a
       display: block
       width: 100%
       height: 33px
+      line-height: 30px
       max-width: 140px
       margin: 0 auto
       background-color: transparent
-      border: 2px solid #828a7e
-      color: #7e8f64
+      border: 2px solid $orchidhush
+      color: $orchidhush
       font-weight: bold
       text-transform: uppercase
       font-size: 17px
@@ -42,7 +43,7 @@
       &:hover,
       &:focus,
       &:active
-        background-color: #828a7e
+        background-color: $orchidhush
         color: white      
       &::after
         content: ""
@@ -67,15 +68,26 @@
       max-height: 180px
       position: relative
       z-index: 1
+    &.bottom-flower
+      bottom: -60px
+      right: -20px
+      img
+        max-width: 100px
     &.right-flower
-      top: -40px
-      right: -40px
+      top: -20px
+      right: -30px
       transform: rotate(-30deg)
-      transform: rotate(-35deg) scaleX(-1)
+      img
+        max-width: 70px
     &.left-flower
-      top: -40px
-      left: -40px
-      transform: rotate(35deg)
+      top: 10px
+      left: -30px
+      // transform: rotate(35deg)
+      img
+        max-width: 80px
+        &:last-child
+          max-width: 60px
+          left: 50px
       // img
         // left: -40px
       // transform: rotate(30deg)

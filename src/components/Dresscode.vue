@@ -5,43 +5,43 @@
       <h2><span>Código de vestimenta</span></h2>
 
       <div class="Dresscode--main">
-        <div class="fondo">
+        <div class="fondo cherryblossom">
           <h5>Romantico Bohemio</h5>
-          <img src="@/assets/images/vestido.png" alt="" class="img-full-responsive">
+          <img src="@/assets/images/dress1.png" alt="" class="img-full-responsive">
         </div>
         <!-- <h3>Pantone </h3> -->
       </div>
       <div class="Dresscode--pantones">
-        <div class="Dresscode--code pink">
+        <div class="Dresscode--code cherryblossom">
           <div class="box"></div>
           <div class="Dresscode-info">
             <p>Pantone</p>
-            <h3>12-1212 TCX</h3>
-            <h4>Veiled Rose</h4>
+            <h3>13-3207</h3>
+            <h4>Cherry Blossom</h4>
           </div>
         </div>
-        <div class="Dresscode--code pinkdark">
+        <div class="Dresscode--code orchidhush">
           <div class="box"></div>
           <div class="Dresscode-info">
             <p>Pantone</p>
-            <h3>12-1212 TCX</h3>
-            <h4>Veiled Rose</h4>
+            <h3>13-3805</h3>
+            <h4>Orchid Hush</h4>
           </div>
         </div>
-        <div class="Dresscode--code green">
+        <div class="Dresscode--code peachbud">
           <div class="box"></div>
           <div class="Dresscode-info">
             <p>Pantone</p>
-            <h3>12-1212 TCX</h3>
-            <h4>Veiled Rose</h4>
+            <h3>14-1324</h3>
+            <h4>Peach Bud</h4>
           </div>
         </div>
-        <div class="Dresscode--code greendark">
+        <div class="Dresscode--code lettucegreen">
           <div class="box"></div>
           <div class="Dresscode-info">
             <p>Pantone</p>
-            <h3>12-1212 TCX</h3>
-            <h4>Veiled Rose</h4>
+            <h3>13-0324</h3>
+            <h4>Lettuce Green</h4>
           </div>
         </div>
       </div>

@@ -34,24 +34,26 @@ export default {
     <div class="o-container">
       <!-- <h2>Ubicacion</h2> -->
       <div class="Location--flowers left-flower">
-        <img src="@/assets/images/flower14.png" alt="Flores" >
+        <img src="@/assets/images/flower27.png" alt="Flores" >
+        <img src="@/assets/images/flower29.png" alt="Flores" >
       </div>
       <div class="Location--flowers right-flower">
-        <img src="@/assets/images/flower17.png" alt="Flores" >
+        <img src="@/assets/images/flower30.png" alt="Flores" >
       </div>      
       <!-- <h3>THE GARDEN PAVILION THURSTFORD</h3> -->
       <div class="Location--info">
         <p>
-          Crystal Plaza <br>
-          305 W.Northfield Road <br>
-          Livingston, NJ, 07039
+          Diego de Montemayor 3502 <br />
+          Col. Vidriera 
         </p>
         <br>
-        <button>
+        <a href="https://goo.gl/maps/TyWPu5edW7bMMe246" target="_blank">
           &#9825; Ver mapa
-        </button>
+        </a>
       </div>
-
+      <div class="Location--flowers bottom-flower">
+        <img src="@/assets/images/flower28.png" alt="Flores" >
+      </div> 
     </div>
 
   </section>

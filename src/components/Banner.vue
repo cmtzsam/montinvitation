@@ -7,9 +7,9 @@
       </p> -->
 
       <div class="decoration">
-        <!-- <div class="deco one">
-          <img src="@/assets/images/flower12.png" alt="">
-        </div> -->
+        <div class="deco one">
+          <img src="@/assets/images/flower23.png" alt="">
+        </div>
         <div class="deco two">
           <img src="@/assets/images/flower15.png" alt="">
         </div>
