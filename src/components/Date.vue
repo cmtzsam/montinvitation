@@ -70,7 +70,7 @@ export default {
         </div>
         <div class="Date--data">
           <!-- <h3 class="hour">00:00 PM</h3> -->
-          <h3 class="hour">2023</h3>
+          <h3 class="hour">04:44 PM</h3>
         </div>
       </div>
     </div>
