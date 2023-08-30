@@ -1,7 +1,7 @@
 <template>
   <section class="InvitationSection">
     <div class="o-container">
-      <a href="#!" class="btn">&#9825; Confirmar asistencia</a>
+      <a href="https://wa.me/5218128627100?text=Hola, confirmo mi asistencia al evento <3" class="btn">&#9825; Confirmar asistencia</a>
       <p>
         * Favor de confirmar con una semana de anticipación.
       </p>
